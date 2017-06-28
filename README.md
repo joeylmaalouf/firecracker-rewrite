@@ -1,2 +1,5 @@
 # firecracker-rewrite
-Rainmeter for Linux - a redone, updated version of my old school project.
+
+Basically Rainmeter, but for Linux.
+
+Firecracker Rewrite is a redone, updated version of [my old school project](https://github.com/joeylmaalouf/firecracker).
