@@ -4,16 +4,9 @@
     <meta charset="UTF-8">
     <title>Digital Clock</title>
     <script type="text/javascript" src="clock_scripts.js"></script>
-    <script type="text/javascript">
-      function start_clock () {
-        setInterval(function () {
-          document.getElementById("clock").innerHTML = get_current_time_string();
-        }, 1000);
-      }
-    </script>
   </head>
 
-  <body onload="start_clock();">
+  <body onload="start_digital_clock();">
     <div id="clock"></div>
   </body>
 </html>

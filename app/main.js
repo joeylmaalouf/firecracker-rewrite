@@ -59,3 +59,5 @@ app.on("window-all-closed", function () {
     app.quit();
   }
 });
+
+// look at https://github.com/joereynolds/fanbox/blob/master/app/main.js ?
