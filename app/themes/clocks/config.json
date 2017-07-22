@@ -1,8 +1,8 @@
 {
   "analog_clock": {
     "enabled": true,
-    "width": 200,
-    "height": 200
+    "width": 320,
+    "height": 320
   },
   "digital_clock": {
     "enabled": true,

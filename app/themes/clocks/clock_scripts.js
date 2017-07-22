@@ -1,6 +1,6 @@
 function start_digital_clock () {
   setInterval(function () {
-    document.getElementById("clock").innerHTML = get_current_time_string();
+    document.getElementById("clock").textContent = get_current_time_string();
   }, 1000);
 }
 
@@ -31,11 +31,11 @@ function draw_face (context, radius) {
   var gradient;
   context.beginPath();
   context.arc(0, 0, radius, 0, 2 * Math.PI);
-  context.fillStyle = "white";
+  context.fillStyle = "#FFFFFF";
   context.fill();
   gradient = context.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
   gradient.addColorStop(0, "#333333");
-  gradient.addColorStop(0.5, "white");
+  gradient.addColorStop(0.5, "#FFFFFF");
   gradient.addColorStop(1, "#333333");
   context.strokeStyle = gradient;
   context.lineWidth = radius  * 0.1;
