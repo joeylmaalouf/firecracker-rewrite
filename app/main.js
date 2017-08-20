@@ -31,8 +31,6 @@ function create_window (widget) {
     height: widget.height
   });
 
-  console.log(path.join(theme_path, widget.name + ".html"));
-
   widget.browserwindow.loadURL(url.format({
     pathname: path.join(theme_path, widget.name + ".html"),
     protocol: "file:",
